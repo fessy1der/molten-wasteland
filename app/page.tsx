@@ -1,3 +1,5 @@
+"use client";
+
 import { FloatingNav } from "@/components/FloatingNav";
 import { navItems } from "@/data";
 import Grid from "@/components/Grid";
