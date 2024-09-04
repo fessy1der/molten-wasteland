@@ -6,18 +6,13 @@ import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import Image from "next/image";
 import { FaHome } from "react-icons/fa";
-import { Broadcast } from "@/components/ui/Broadcast";
-import { Phases } from "@/components/ui/Phases";
 
-export default function Home() {
+export default function Page() {
   return (
     <main className="relative bg-black flex justify-center items-center flex-col overflow-hidden mx-auto sm:px10 px-5">
       <div className="max-w-7xl w-full">
         <FloatingNav navItems={navItems}/>
         <Hero></Hero>
-        <Grid/>
-        <Phases/>
-        <Broadcast/>
       </div>
     </main>
   );

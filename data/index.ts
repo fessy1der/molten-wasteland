@@ -1,6 +1,6 @@
 export const navItems = [
     { name: "Home", link: "/" },
-    { name: "Ecosystem", link: "/" },
+    { name: "Ecosystem", link: "/ecosystem" },
     { name: "IP/Licensing", link: "/" },
     { name: "Element 19", link: "/" },
   ];
@@ -59,7 +59,7 @@ export const navItems = [
     },
     {
       id: 6,
-      title: "Do you want to start a project together?",
+      title: "We’ll be glad to have you with us, Write Us",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
